@@ -1,0 +1,71 @@
+body{
+    background:white;
+    color: black;
+    text-align:center;
+}
+
+.header{
+background: rgb(1, 5, 252);
+color:white;
+display: flex;
+justify-content: space-between;
+height: 90px;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+.header a {
+color: rgb(21, 255, 0);
+text-decoration: brown;
+height: inherit;
+display: flex;
+align-items: center;
+padding: 0px 10px;
+}
+.menu{
+    height: inherit;
+}
+.header li{
+    height: inherit;
+}
+.Inicio{
+    background:rgb(6, 247, 18);
+}
+.Servicios{
+    background:rgb(6, 247, 18);
+}
+.Instrucciones{
+background:rgb(6, 247, 18);
+}
+.Contacto{
+background:rgb(6, 247, 18);
+}
+
+.padre{
+    background: white;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+.hijo{
+    background: orange;
+    width: 300px;
+    height: 300px;
+    border: 2px solid yellowgreen;
+    font-size: 30px;
+    margin:10px ;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
