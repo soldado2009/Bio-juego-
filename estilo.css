@@ -1,15 +1,16 @@
 body{
     background:white;
     color: black;
-    text-align:center;
+    text-align: center;
 }
 
 .header{
-background: rgb(1, 5, 252);
+background:yellow;
 color:white;
 display: flex;
 justify-content: space-between;
 height: 90px;
+text-align: center;
 }
 ul{
     list-style: none;
@@ -17,6 +18,7 @@ ul{
     padding: 0px;
     display: flex;
     height: inherit;
+    text-align: center;
 }
 .header a {
 color: rgb(21, 255, 0);
@@ -25,26 +27,33 @@ height: inherit;
 display: flex;
 align-items: center;
 padding: 0px 10px;
+text-align: center;
 }
 .menu{
     height: inherit;
+    text-align: center;
 }
 .header li{
     height: inherit;
+    text-align: center;
 }
 .Inicio{
-    background:rgb(6, 247, 18);
+    background:greenyellow;
+    text-align: center;
 }
 .Servicios{
-    background:rgb(6, 247, 18);
+    background:chartreuse;
+    text-align: center;
 }
 .Instrucciones{
-background:rgb(6, 247, 18);
+background:greenyellow;
+text-align: center;
 }
 .Contacto{
-background:rgb(6, 247, 18);
+background:chartreuse;
+text-align: center;
 }
-
+/*
 .padre{
     background: white;
     display:flex;
@@ -66,6 +75,70 @@ background:rgb(6, 247, 18);
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
 }
+*/
+.aplicar{
+    height: 500px;
+    background:greenyellow ;
+    display:flex ;
+    color: black;
+}
+
+.aplicar-detalles{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    padding: 0px 30px;
+    text-align: center;
+}
+.aplicar-detalles img{
+    height: 90%;
+}
+.container1{
+    display: flex;
+    background:yellow;
+    padding: 10px;
+    justify-content: space-around;
+}
+.container2{
+    background:red;
+    text-align: center;
+}
+.col1-container1{
+    width: 400px;
+}
+.col2-container1{
+    width: 200px;
+}
+.col3-container1{
+    width: 300px;
+}
+.row1-contacto img{
+    width: 35px ;
+    height: 35px;
+}
+.row2-contacto img{
+    width: 35px;
+    height: 35px;
+}
+.row1-redes img{
+    width: 35px;
+    height: 35px;
+}
+.row1-contacto{
+    display: flex;
+    margin: 10px 0px;
+}
+.row1-contacto p{
+    padding-left: 10px;
+}
+.row2-contacto {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.row2-contacto p{
+    padding-left: 10px;
